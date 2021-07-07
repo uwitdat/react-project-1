@@ -1,3 +1,18 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  align-items: center;
+}
+
+.suggestion {
+  cursor: pointer;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.suggestion:hover {
+  background-color: rgb(192, 192, 192);
 }
